@@ -1,1 +1,6 @@
+*.pyc
 plugins/*.py
+plugins/*.pyc
+plugins/__pycache__
+!plugins/hamattiorg.py
+venv
