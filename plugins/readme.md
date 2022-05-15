@@ -12,6 +12,10 @@ Each plugin needs to adhere to three rules:
 
 Plugins may then have more private functions that take care of fetching, parsing and cleaning the data.
 
+## Installing a plugin
+
+Once you have created a plugin file, add the name of the plugin (without `.py` extension) in `settings.py`'s `INSTALLED_PLUGINS` list.
+
 ## Example
 
 See `hamattiorg.py` for an example of parsing my personal blog at [https://hamatti.org/blog](https://hamatti.org/blog). It does provide RSS so you don't need this tool for it but it's easier to keep as an example since I control its changes.

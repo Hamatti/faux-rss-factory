@@ -1,0 +1,3 @@
+INSTALLED_PLUGINS = [
+    'hamattiorg',
+]
